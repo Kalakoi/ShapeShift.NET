@@ -51,24 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CancelResult.cs" />
-    <Compile Include="EmailReceipt.cs" />
-    <Compile Include="RecentTx.cs" />
-    <Compile Include="RestServices.cs" />
+    <Compile Include="ShapeShift\CancelResult.cs" />
+    <Compile Include="ShapeShift\EmailReceipt.cs" />
+    <Compile Include="ShapeShift\RecentTx.cs" />
+    <Compile Include="REST\RestServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SendAmountRequest.cs" />
-    <Compile Include="QuoteRequest.cs" />
+    <Compile Include="ShapeShift\SendAmountRequest.cs" />
+    <Compile Include="ShapeShift\QuoteRequest.cs" />
     <Compile Include="ShapeShift.cs" />
-    <Compile Include="ShiftResult.cs" />
-    <Compile Include="SupportedCoin.cs" />
-    <Compile Include="TimeRemaining.cs" />
-    <Compile Include="TradingLimit.cs" />
-    <Compile Include="TradingMarketInfo.cs" />
-    <Compile Include="TradingPair.cs" />
-    <Compile Include="TradingRate.cs" />
-    <Compile Include="Tx.cs" />
-    <Compile Include="TxStatus.cs" />
-    <Compile Include="ValidateAddress.cs" />
+    <Compile Include="ShapeShift\ShiftResult.cs" />
+    <Compile Include="ShapeShift\SupportedCoin.cs" />
+    <Compile Include="ShapeShift\TimeRemaining.cs" />
+    <Compile Include="ShapeShift\TradingLimit.cs" />
+    <Compile Include="ShapeShift\TradingMarketInfo.cs" />
+    <Compile Include="ShapeShift\TradingPair.cs" />
+    <Compile Include="ShapeShift\TradingRate.cs" />
+    <Compile Include="ShapeShift\Tx.cs" />
+    <Compile Include="ShapeShift\TxStatus.cs" />
+    <Compile Include="ShapeShift\ValidateAddress.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
